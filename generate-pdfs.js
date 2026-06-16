@@ -514,7 +514,7 @@ function drawBookingFlowchart(doc, y) {
 
 // 1. Brainstorming Phase Document Builder
 function buildBrainstormingPDF() {
-  const outputPath = 'documents/Phase Wise Templets/Brainstorming & Ideation Phase/Brainstorming & Ideation Phase.pdf';
+  const outputPath = 'MERN Phase Wise/Phase Wise Templets/Brainstorming & Ideation Phase/Brainstorming & Ideation Phase.pdf';
   return buildDocument(outputPath, 'BRAINSTORMING & IDEATION PHASE', 'Phase 1 - Conception', (doc) => {
     drawTitlePage(doc, 'Brainstorming & Ideation Phase Document', 'Phase 1: Project Conception & Feature Scoping');
     
@@ -548,7 +548,7 @@ function buildBrainstormingPDF() {
 
 // 2. Requirement Analysis Document Builder
 function buildRequirementPDF() {
-  const outputPath = 'documents/Phase Wise Templets/Requirement Analysis/Requirement Analysis.pdf';
+  const outputPath = 'MERN Phase Wise/Phase Wise Templets/Requirement Analysis/Requirement Analysis.pdf';
   return buildDocument(outputPath, 'REQUIREMENT ANALYSIS PHASE', 'Phase 2 - Specifications', (doc) => {
     drawTitlePage(doc, 'Requirement Analysis Document', 'Phase 2: Functional & Non-Functional Specifications');
     
@@ -595,7 +595,7 @@ function buildRequirementPDF() {
 
 // 3. Project Planning Phase Document Builder
 function buildPlanningPDF() {
-  const outputPath = 'documents/Phase Wise Templets/Project Planning Phase/Project Planning Phase.pdf';
+  const outputPath = 'MERN Phase Wise/Phase Wise Templets/Project Planning Phase/Project Planning Phase.pdf';
   return buildDocument(outputPath, 'PROJECT PLANNING PHASE', 'Phase 3 - Schedule & Scope', (doc) => {
     drawTitlePage(doc, 'Project Planning Phase Document', 'Phase 3: Work Breakdown Structure & Risk Assessments');
     
@@ -637,7 +637,7 @@ function buildPlanningPDF() {
 
 // 4. Project Design Phase (Proposed Solution) Document Builder
 function buildDesignPDF() {
-  const outputPath = 'documents/Phase Wise Templets/Project Design Phase/Proposed Solution/Proposed Solution Template.pdf';
+  const outputPath = 'MERN Phase Wise/Phase Wise Templets/Project Design Phase/Proposed Solution/Proposed Solution Template.pdf';
   return buildDocument(outputPath, 'PROJECT DESIGN PHASE', 'Phase 4 - Proposed Solution', (doc) => {
     drawTitlePage(doc, 'Proposed Solution Template', 'Phase 4: Architecture, Schemas & Database Entity-Relationships');
     
@@ -658,7 +658,7 @@ function buildDesignPDF() {
 
 // 5. Project Development Document Builder
 function buildDevelopmentPDF() {
-  const outputPath = 'documents/Phase Wise Templets/Project Developement/Project Developement.pdf';
+  const outputPath = 'MERN Phase Wise/Phase Wise Templets/Project Developement/Project Developement.pdf';
   return buildDocument(outputPath, 'PROJECT DEVELOPMENT PHASE', 'Phase 5 - Core Engineering', (doc) => {
     drawTitlePage(doc, 'Project Development Document', 'Phase 5: Technical Setup, Folder Structures & Coding Guidelines');
     
@@ -745,7 +745,7 @@ function buildDevelopmentPDF() {
 
 // 6. Project Documentation (FSD) Document Builder
 function buildFsdPDF() {
-  const outputPath = 'documents/Project Documentation/FSD Documentation Format.pdf';
+  const outputPath = 'MERN Phase Wise/Project Documentation/FSD Documentation Format.pdf';
   return buildDocument(outputPath, 'FUNCTIONAL SPECIFICATION DOCUMENT', 'Functional Specs & Manual', (doc) => {
     drawTitlePage(doc, 'Functional Specification Document (FSD)', 'System User Manual, Workflows & Interactive Flows');
     
