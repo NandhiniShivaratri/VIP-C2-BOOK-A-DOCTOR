@@ -1,0 +1,14 @@
+{
+  "name": "medconnect-root",
+  "version": "1.0.0",
+  "description": "MediConnect Root Project Folder",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend && npm run dev"
+  },
+  "dependencies": {
+    "pdfkit": "^0.19.1"
+  }
+}
